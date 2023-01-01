@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(188, 245, 255);
+}
+
+.r{
+    width: 30%;
+    margin: 2% auto 5%;
+    display: block;
+}
+
+.rc, .lc{
+    padding: 7% 8%;
+    background-color: #f1fdff;
+    border-radius: 25px;
+    box-shadow:  0 1px 15px 3px rgba(0, 0, 0, 0.329);
+}
+input{
+    margin: 2% auto;
+}
+
+.btn{
+    width: 100%;
+    font-size: 1.1em;
+}
+
+label{
+    font-family: ubuntu;
+    font-size: 1.2em;
+}
+
+h1{
+    margin: 2% auto 10%;
+    display: block;
+    text-align: center;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 2.7em;
+    color: rgb(0, 86, 184);
+}
+
+.la{
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin: 2% auto;
+    text-decoration: none;
+}
+
+sup{
+    color: red;
+}
+
+.l{
+    width: 30%;
+    margin: 2% auto 5%;
+    display: block;
+}
+
+/* --------------- NAVBAR ---------------- */
+
+.navbar-brand{
+    font-size: 1.4em;
+    margin: auto 2%;
+}
+
+.navbar{
+    position: sticky;
+}
+
+.navbar-nav{
+    margin: auto;
+    text-align: center;
+}
+
+.btn-outline-light, .btn-dark{
+    width: 7%;
+    margin: 0 0.7em;
+    border: 2px solid #000;
+    padding: 0.3em 1em;
+}
+
+.btn-outline-light{
+    color: #000;
+}
+
+.btn-outline-light:hover{
+    border:2px solid #000;
+    color: #fff;
+    background-color: #000;
+}
+
+.btn-dark:hover{
+    border:2px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    margin: 0 1em;
+    font-weight: 400;
+    padding: 0;
+}
+
+/* --------------- HOME ---------------- */
+
+#home{
+    height: 100vh;
+    background-image: url(/img/bg1.jpg);
+    background-size: cover;
+}
+
+.hc{
+    margin: 12% 10%; 
+}
+
+h2{
+    font-family: ubuntu;
+    color: rgb(101, 255, 255);
+    font-size: 5em;
+}
+
+h4{
+    font-size: 3em;
+    color:rgb(255, 255, 255);
+    font-family: ubuntu;
+}
+
+.bi-chevron-double-down{
+    color: cyan;
+    font-size: 4em;
+}
+
+h6{
+    font-size: 1.5rem;
+}
+
+#home{
+    margin-bottom: 5%;
+}
+
+
+/* ------------------  COURSES ------------------ */
+
+.o{
+    width: 80%;
+}
+
+h3{
+    text-align: center;
+    font-size: 6em;
+    margin-bottom: 3%;
+    font-family: josefin sans;
+    color:#0064a1;
+}
+.d-flex{
+    justify-content: center;
+    text-align:left;
+}
+
+
+.box:hover{
+    box-shadow:  0 1px 15px 3px rgba(0, 0, 0, 0.329);
+    transition: 0.3s ease;
+    transform: scale(105%);
+}
+
+.box, .card-img-top{
+    border-radius: 25px;
+    padding: 5%;
+    background-color: #fff;
+    margin: 10% auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.card-img-top:hover{
+    transform: scale(105%);
+    transition: 0.3s;
+}
+
+#topbtn {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    outline: none; 
+    background-color: #fff; 
+    color: #000; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px;
+    font-size: 18px; 
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  #topbtn:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .bigbtn{
+    width: 100%;
+    background-color: #00e1ff;
+    border: none;
+    transition: 0.3s;
+    font-family: josefin sans;
+    font-size: 1.5em;
+    color: #000;
+}
+
+.bigbtn:hover{
+    transition: 0.3s ease;
+    background-color: #009EFF; 
+}
+
+.card{
+
+    border: 0px;
+}
+
+h5{
+    font-size: 2em;
+    font-family: ubuntu;
+}
+
+.box, .card{
+    background-color: rgb(239, 253, 255);
+}
+
+img{
+    border-radius: 15px;
+}
+
+#courses{
+    margin-bottom: 5%;
+}
+
+/* ------------------  ABOUT ------------------ */
+
+#aboutus{
+    background-color: rgb(246, 246, 246);
+    width: 100%;
+    padding-bottom: 0.5;
+}
+
+.aboutc{
+    width: 80%;
+    margin: 5% auto;
+}
+
+.featuretitle{
+    font-family: ubuntu;
+    font-size: 2.5em;
+}
+
+.p1{
+    font-size: 1.1em;
+}
+
+.featurebox{
+    text-align: center;
+    align-items: center;
+    margin: 4% auto;
+}
+
+.ico2{
+    font-size: 4em;
+    color: #00bad6;
+    transition: 0.3s;
+}
+
+.ico2:hover{
+    color: #0092a8;
+    font-size: 5em;
+}
+
+.abouth{
+    font-family: josefin sans;
+    text-align: center;
+    font-size: 6em;
+    color:rgb(72, 72, 72);
+    padding-top: 4%;
+}
+
+.featuretitle1{
+    font-family: ubuntu;
+    font-size: 1.5em;
+}
+
+
+/* ---------------  Contact Us  ------------------ */
+
+#contactus{
+    width: 100%;
+}
+
+.contacth{
+    font-family: josefin sans;
+    text-align: center;
+    font-size: 6em;
+    color:rgba(0, 86, 132, 0.79);
+}
+
+.c2{
+    font-family: ubuntu;
+    font-size: 1.5em;
+    padding: auto 5%;
+}
+.fb2{
+    text-align: left;
+    align-items: center;
+    margin: 2% 3%;
+}
+
+.icobox{
+    font-size: 2em;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.ico3{
+    margin: 0 6%;
+    color:#000;
+}
+
+.ico3:hover{
+    margin: 0 6%;
+    color:rgb(0, 87, 154);
+}
+
+.emaila{
+    text-decoration: none;
+    color: #000;
+}
+
+.icob{
+    font-size: 1.5em;
+}
+
+/* -------------- footer  ------------------- */
+
+#footer{
+    text-align: center;
+}
+
+.foot{
+    color: rgb(64, 64, 64);
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+}
