@@ -110,7 +110,7 @@ sup{
 
 #home{
     height: 100vh;
-    background-image: url(https://github.com/VaibhavWithGit/E-learning/img/bg1.jpg);
+    background-image: url(../img/bg1.jpg);
     background-size: cover;
 }
 
